@@ -7,9 +7,9 @@ class Program
     {
         Student student = new Student("Ewelina Cupak", 19, "546-876-954");
 
-        student.TotalToPay = 3000.0;
+        student.TotalToPay = 2500.0;
 
-        student.AddAddress("Rzeszów", "Rejtana", "13/5");
+        student.AddAddress("Rzeszów", "Rejtana", "13/5"); 
 
         student.AddCourse(1, "Programowanie");
 
